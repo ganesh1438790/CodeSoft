@@ -1,0 +1,198 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('my.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+
+}
+
+.navbar {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 500;
+    color: aliceblue;
+    margin-left: 50px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+li a {
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+
+
+
+}
+
+button {
+    background-color: aliceblue;
+    margin-left: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+
+button a {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.main {
+    height: 100vh;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.div1 {
+
+    height: 500px;
+    width: 50%;
+   
+}
+
+.div1 h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+
+
+}
+
+#th {
+    color: #FF671F;
+
+}
+
+#la {
+    color: #046A38;
+}
+
+#bt1 {
+    background-color: green;
+    text-align: center;
+    color: antiquewhite;
+    width: 200px;
+    height: 50px;
+    margin-left: 200px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#bt2 {
+    background-color: red;
+    text-align: center;
+    color: antiquewhite;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.div2 {
+    margin-top: 50px;
+    display: flex;
+}
+
+.section h1 {
+    text-align: center;
+    color: aliceblue;
+   
+}
+
+.div11 {
+    width: 300px;
+    height: 200px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.div11 h1 {
+    color: black;
+}
+
+.div11 i {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+.cources h1{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+.p1{
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 10px;
+}
+.p1 img{
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+}
+.p1 p{
+    margin: 10px;
+}
+.foot{
+    height: 250px;
+    text-align: center;
+    margin-top: 30px;
+    background-image: url("ai.jpg");
+    background-size: cover; 
+    border-radius: 50px;
+   
+}
+.foot h1{
+    color: hsl(0, 33%, 40%);
+    margin-top: 10px;
+    padding: 10px;
+}
+.about{
+    height: 150px;
+    margin-top: 10px;
+    color: white;
+ 
+}
+.about p{
+    padding: 10px;
+    font-size: 20px;
+
+}
